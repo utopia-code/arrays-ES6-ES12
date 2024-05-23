@@ -14,7 +14,6 @@ function entryCalculator(entrants) {
     result = (entrants.Adult * priceAdult) + (entrants.Senior * priceSenior) + (entrants.Child * priceChild)
   }
   return result
-  // your code here
 }
 
 function schedule(dayName) {
@@ -45,7 +44,6 @@ function schedule(dayName) {
   })
       
   return schedule
-  // your code here
 }
 
 function animalCount(species) {
@@ -63,7 +61,6 @@ function animalCount(species) {
       }
     }
   }
-  // your code here
 }
 
 function animalMap(options) {
@@ -118,7 +115,6 @@ function animalPopularity(rating) {
   
     return obj
   }
-  // your code here
 }
 
 function animalsByIds(ids) {
@@ -140,7 +136,6 @@ function animalsByIds(ids) {
   } 
 
   return arr
-  // your code here
 }
 
 function animalByName(animalName) {
@@ -163,7 +158,6 @@ function animalByName(animalName) {
 
   return obj
 
-  // your code here
 }
 
 function employeesByIds(ids) {
@@ -184,7 +178,6 @@ function employeesByIds(ids) {
     }
     return data
   }
-  // your code here
 }
 
 function employeeByName(employeeName) {
@@ -200,7 +193,6 @@ function employeeByName(employeeName) {
       }
     }
   }
-  // your code here
 }
 
 function managersForEmployee(idOrName) {
@@ -220,7 +212,6 @@ function managersForEmployee(idOrName) {
   obj.managers = managerIdToName
 
   return obj
-  // your code here
 }
 
 function employeeCoverage(idOrName) {
@@ -244,7 +235,6 @@ function employeeCoverage(idOrName) {
   }, {});
 
   return employeeData;
-  // your code here
 }
 
 module.exports = {

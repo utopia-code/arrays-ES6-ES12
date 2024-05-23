@@ -1,11 +1,9 @@
 function sum(array) {
   return array.reduce((acc, cur) => acc + cur, 0);
-  // your code here
 }
 
 function productAll(array) {
   return array.reduce((acc,cur) => acc * cur.reduce((accum, current) => accum * current, 1),1);
-  // your code here
 }
 
 function objectify(array) {
@@ -14,7 +12,6 @@ function objectify(array) {
   }, {});
 
   return arrayToObject;
-  // your code here
 }
 
 function luckyNumbers(array) {
@@ -33,8 +30,6 @@ function luckyNumbers(array) {
   string = `Your lucky numbers are: ${arrayToString}`;
 
   return string
-
-  // your code here
 }
 
 module.exports = {
